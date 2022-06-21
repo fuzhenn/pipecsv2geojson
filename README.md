@@ -2,6 +2,11 @@
 
 将管线数据转换成渲染用的GeoJSON格式。
 
+## 安装
+```shell
+npm i pipecsv2geojson
+```
+
 ## 用法
 
 ```js
