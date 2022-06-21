@@ -1,0 +1,28 @@
+{
+  "name": "pipecsv2geojson",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "convert pipe csv data to geojson",
+  "main": "index.js",
+  "module": "index.mjs",
+  "scripts": {
+    "test": "mocha ./test/spec.js",
+    "tdd": "mocha -w ./test/spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuzhenn/pipecsv2geojson.git"
+  },
+  "author": "Fu Zhen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuzhenn/pipecsv2geojson/issues"
+  },
+  "homepage": "https://github.com/fuzhenn/pipecsv2geojson#readme",
+  "dependencies": {
+    "csv-parse": "^5.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
